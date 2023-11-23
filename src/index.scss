@@ -1,0 +1,44 @@
+@import "./assets/reset.scss";
+
+.todo{
+    margin: 80px;
+    width: 250px;
+    // min-width: 250px;
+    form{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        input{
+            padding: 8px 16px;
+            outline: none;
+            border-radius: 8px;
+            border: 1px solid #557C55 ;
+        }
+        button{
+            padding: 8px 16px;
+            border: none;
+            border-radius: 8px;
+            background-color: #557C55;
+            color: white;
+        }
+    }
+    ul{
+        padding: 10px 10px;
+        // width: 100%;
+        li{
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px 0px;
+            background-color: #557C55;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+           
+            .icon{
+                font-size: 20px;
+            }
+        }
+    }
+    
+}
